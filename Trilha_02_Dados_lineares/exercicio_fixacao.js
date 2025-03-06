@@ -6,20 +6,45 @@
 // ○ Implemente uma função para remover um elemento do vetor em uma
 // posição específica.
 
-var vetor10 = [10];
+let vetor = [2,3,5,6,7,8,10,11,13,14];
 
-function buscar(vetor10){
-
-    var resultado = vetor10.indexOf(8);
-        if(resultado == 8){
-            return true;
-        }else{
-            return false;
-        }
+function exibirVetor() {
+    document.getElementById('vetorAtual').textContent = vetor.join(', ');
 }
 
-var mostra = buscar(8);
-console.log(mostra);
+
+
+function buscar(){
+
+    let numero = parseInt(document.getElementById('numero').value);
+    let indice = vetor.indexOf(numero);
+
+    if(indice !== -1){
+
+        alert(`numero ${numero} encontrado na posição ${indice}`);
+    }else{
+        alert(`Numero ${numero} não encontrado no vetor`);
+    }
+    
+}
+
+function remover(){
+    
+    let numero = parseInt(document.getElementById('numero').value);
+    let indice = vetor.indexOf(numero);
+
+    if(indice !== -1){
+        vetor.splice(indice, 1);
+        alert(`Numero ${numero} foi removido do vetor`);
+        exibirVetor();
+    }else{
+        alert(`Numero ${numero} não encontrado no vetor`)
+    }
+}
+
+window.onload = exibirVetor;
+
+
 
 
 
