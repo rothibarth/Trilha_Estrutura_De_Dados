@@ -13,7 +13,6 @@ function exibirVetor() {
 }
 
 
-
 function buscar(){
 
     let numero = parseInt(document.getElementById('numero').value);
@@ -43,29 +42,4 @@ function remover(){
 }
 
 window.onload = exibirVetor;
-
-
-
-
-
-
-// 2. Lista Simplesmente Encadeada:
-// ○ Implemente uma lista simplesmente encadeada com as seguintes operações:
-// inserir no início, inserir no final e remover de uma posição específica.
-// ○ Modifique o código anterior para permitir a busca de um elemento por valor.
-// 3. Lista Duplamente Encadeada:
-// ○ Implemente uma lista duplamente encadeada com as operações de inserir no
-// início e remover do final da lista.
-// ○ Crie uma função que percorra a lista em ambas as direções, imprimindo os
-// valores dos nós.
-// 4. Pilha (Stack):
-// ○ Implemente uma pilha e adicione operações para verificar se a pilha está
-// cheia ou vazia.
-// ○ Utilize uma pilha para verificar se uma expressão aritmética contém
-// parênteses balanceados (exemplo: ((1+2) * (3/4))).
-// 5. Fila (Queue):
-// ○ Crie uma fila e implemente as operações de enqueue e dequeue.
-// ○ Modifique o código para implementar uma fila circular.
-// ○ Desenvolva um programa que simule o atendimento de um banco utilizando
-// uma fila simples.
 
