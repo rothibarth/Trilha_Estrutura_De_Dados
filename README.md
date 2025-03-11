@@ -1,4 +1,6 @@
-Estruturas de Dados e Algoritmos
+Trilha de Estruturas de Dados
+
+
 Este repositório contém materiais e exemplos práticos relacionados ao estudo de Estruturas de Dados e Algoritmos, organizados em trilhas de aprendizado. Cada trilha aborda um tópico específico, desde conceitos básicos até tópicos avançados.
 
 Trilhas de Estudo
