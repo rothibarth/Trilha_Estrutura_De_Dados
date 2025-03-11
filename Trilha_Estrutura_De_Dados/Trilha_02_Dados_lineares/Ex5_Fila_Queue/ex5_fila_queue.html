@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Fila e Simulação de Banco</title>
+    <script src="ex5_fila_queue.js"></script>
+</head>
+<body>
+
+    <h1>Teste de Fila e Simulação de Banco</h1>
+
+    <!-- Fila Simples -->
+    <div class="container">
+        <h2>Fila Simples</h2>
+        <input type="text" id="filaSimplesInput" placeholder="Digite um valor">
+        <button onclick="adicionarFilaSimples()">Adicionar (Enqueue)</button>
+        <button onclick="removerFilaSimples()">Remover (Dequeue)</button>
+        <div class="output" id="filaSimplesOutput">Fila: []</div>
+    </div>
+
+    <!-- Fila Circular -->
+    <div class="container">
+        <h2>Fila Circular</h2>
+        <input type="text" id="filaCircularInput" placeholder="Digite um valor">
+        <button onclick="adicionarFilaCircular()">Adicionar (Enqueue)</button>
+        <button onclick="removerFilaCircular()">Remover (Dequeue)</button>
+        <div class="output" id="filaCircularOutput">Fila: []</div>
+    </div>
+
+    <!-- Simulação de Banco -->
+    <div class="container">
+        <h2>Simulação de Banco</h2>
+        <input type="text" id="clienteInput" placeholder="Digite o nome do cliente">
+        <button onclick="adicionarCliente()">Adicionar Cliente</button>
+        <button onclick="atenderCliente()">Atender Cliente</button>
+        <div class="output" id="bancoOutput">Fila de espera: []</div>
+    </div>
+
+</body>
+</html>
