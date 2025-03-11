@@ -1,0 +1,34 @@
+<!-- 4. Pilha (Stack):
+○ Implemente uma pilha e adicione operações para verificar se a pilha está
+cheia ou vazia.
+○ Utilize uma pilha para verificar se uma expressão aritmética contém
+parênteses balanceados (exemplo: ((1+2) * (3/4))). -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Pilha em JavaScript</title>
+    <script src="Ex4_pilha_stack.js"></script>
+</head>
+
+<body>
+    <h1>Teste de Pilha em JavaScript</h1>
+    <form id="pilhaForm">
+        <label for="valorPilha">Valor:</label>
+        <input type="text" id="valorPilha" name="valorPilha" required>
+        <br><br>
+        <button type="button" onclick="empilhar()">Empilhar</button>
+        <button type="button" onclick="desempilhar()">Desempilhar</button>
+        <button type="button" onclick="verificarVazia()">Verificar se está vazia</button>
+        <button type="button" onclick="verificarCheia()">Verificar se está cheia</button>
+        <button type="button" onclick="verificarBalanceamento()">Verificar parênteses balanceados</button>
+    </form>
+
+    <h2>Pilha Atual:</h2>
+    <p id="pilhaAtual"></p>
+</body>
+
+</html>
