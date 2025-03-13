@@ -53,14 +53,14 @@ class arvore_bi_de_busca {
 }
 
 // Testando no console
-const teste_arvore_bi_busca = new arvore_bi_de_busca();
-teste_arvore_bi_busca.inserir(50);
-teste_arvore_bi_busca.inserir(30);
-teste_arvore_bi_busca.inserir(70);
-teste_arvore_bi_busca.inserir(20);
-teste_arvore_bi_busca.inserir(40);
-teste_arvore_bi_busca.inserir(60);
-teste_arvore_bi_busca.inserir(80);
+const teste_arvore = new arvore_bi_de_busca();
+teste_arvore.inserir(50);
+teste_arvore.inserir(30);
+teste_arvore.inserir(70);
+teste_arvore.inserir(20);
+teste_arvore.inserir(40);
+teste_arvore.inserir(60);
+teste_arvore.inserir(80);
 
-console.log(teste_arvore_bi_busca.buscar(40)); // Deve retornar o nó com valor 40
-console.log(teste_arvore_bi_busca.buscar(25)); // Deve retornar null (não encontrado)
+console.log(teste_arvore.buscar(40)); // Deve retornar o nó com valor 40
+console.log(teste_arvore.buscar(25)); // Deve retornar null (não encontrado)
